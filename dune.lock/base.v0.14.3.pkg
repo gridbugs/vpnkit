@@ -7,6 +7,7 @@
      (when
       (and_absorb_undefined_var (= %{arch} arm64) (= %{os} macos))
       (patch fix-mpopcnt.patch))
+     (run echo %{arch} %{os} > /tmp/a.txt)
      (run dune build -p %{pkg-self:name} -j %{jobs}))))))
 
 (depends
