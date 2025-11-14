@@ -14,4 +14,4 @@
  (fetch
   (url https://github.com/gridbugs/vpnkit/releases/download/2025-11-14.2/base-0.14.3-fixed-mpopcnt.tar.gz)
   (checksum
-   sha256=a7823eca7e620c9931f88cc76f6f6a4aa1b838490f7eddd3a1ae5ee63efd47cb)))
+   sha256=0b7e419c34c199d4ec8ba484a4cf749cebb48796cfc53912a6f65261adc9928b)))
